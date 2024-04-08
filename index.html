@@ -14,23 +14,55 @@
             .highlight {
                 color: #B1CC74; /* Change the color of certain words */
             }
+            .header {
+                background-color: #333;
+                overflow: hidden; /* Ensure the content is contained within the header */
+            }
+            .header a {
+                float: left; /* Align the links to the left */
+                color: white;
+                text-align: center;
+                padding: 14px 16px; /* Add some padding for spacing */
+                text-decoration: none;
+                font-size: 17px; /* Set the font size */
+            }
+            .header a:hover {
+                background-color: #ddd; /* Change background on hover */
+                color: black; /* Change text color on hover */
+            }
+            .header a.active {
+                background-color: #B1CC74; /* Highlight the active page */
+                color: white;
+            }
+            .image-container {
+                margin-top: 20px; /* Add some space above the image */
+            }
+            img {
+                max-width: 100%; /* Ensure the image fits within the container */
+                height: auto; /* Maintain the aspect ratio */
+            }
         </style>
     </head>
     <body>
-        <div>
+        <div class="header">
+            <a href="index.html" class="active">Home</a>
+            <a href="research.html">Research</a>
+            <a href="cv.html">CV</a>
+            <a href="contact.html">Contact</a>
+        </div>
             <h1> Sophia Scaglioni</h1>
             <p>
-                Hi, I’m <span class="highlight">Sophia</span>! <br>
+                Hi, I’m Sophia! <br>
                 <br>
                 
                 I am an incoming Pre-Doctoral researcher at MIT working with <a href="https://ninaroussille.github.io/">Nina Roussille</a> (MIT Economics) 
                 and <a href="https://www.annastansbury.com/">Anna Stansbury</a> (MIT Sloan).<br>
                 <br>
                 
-                My primary research areas are labor economics and political economy. I am interested in the moral, financial, and social tradeoffs made by workers when choosing a job, as well as broader topics at the intersection of labor and policy including worker power, wage inequality, and technological change.<br>
+                My primary research areas are <span class="highlight"></span> labor economics</span> and <span class="highlight"></span> political economy</span>. I am interested in the moral, financial, and social tradeoffs made by workers when choosing a job, as well as broader topics at the intersection of labor and policy including worker power, wage inequality, and technological change.<br>
                 <br>
 
-                Before coming to MIT, I worked on the largest ever study of unconditional cash transfers in the United States at OpenResearch. I received my BA in Economics and Political Science with Honors from Boston University, where I was awarded best undergraduate thesis for my work on heterogeneous firm preferences when engaging in corporate political activity. <br>
+                Before coming to MIT, I worked on <span class="highlight"></span> the largest ever study of unconditional cash transfers</span> in the United States at OpenResearch. I received my BA in Economics and Political Science with Honors from Boston University, where I was awarded best undergraduate thesis for my work on heterogeneous firm preferences when engaging in corporate political activity. <br>
                 <br>
 
                 You can find my CV here, and a list of previous and ongoing research here. 
