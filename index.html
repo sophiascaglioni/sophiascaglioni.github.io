@@ -2,6 +2,7 @@
 <html>
     <head>
         <title>sophscag.github.io</title>
+        <link rel="icon" type="image/png" href="initials.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap" rel="stylesheet">
@@ -37,6 +38,15 @@
             .header {
                 background-color: #F2EFEA;
                 overflow: hidden; /* Ensure the content is contained within the header */
+                position: relative; /* Establish a positioning context for absolute children */
+            }
+            .header-name {
+                position: absolute;
+                right: 0; /* Align the name to the right edge of the header */
+                top: 0; /* Align the top of the name with the top of the header */
+                color: #1a4301; /* Highlight color */
+                padding: 10px 12px; /* Add some padding for spacing */
+                font-size: 12px; /* Set the font size to match the header links */
             }
             .header a {
                 float: left; /* Align the links to the left */
@@ -82,11 +92,11 @@
     </head>
     <body>
         <div class="header">
+            <p> Sophia Scaglioni Melegari</p>
             <a href="/" class="active">Home</a>
             <a href="research.html">Research</a>
             <a href="cv.html">CV</a>
             <a href="contact.html">Contact</a>
-            <p> Sophia Scaglioni Melegari </p>
         </div>
         <div class="content">
             <div class="image-container">
