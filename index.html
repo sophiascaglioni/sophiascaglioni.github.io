@@ -9,18 +9,18 @@
             body {
                 font-family: 'Gothic A1', sans-serif;
                 background-color: #F2EFEA;
-                text-align: cleftenter; /* Center the text */
+                text-align: center; /* Center the text */
             }
             .highlight {
-                color: #458D5C; /* Change the color of certain words */
+                color: #1a4301; /* Change the color of certain words */
             }
             a.visited {
-                color: #458D5C;
+                color: #1a4301;
                 background-color: transparent;
                 text-decoration: none;
             }
             a.link {
-                color: #458D5C;
+                color: #1a4301;
                 background-color: transparent;
                 text-decoration: none;
             }
@@ -54,14 +54,20 @@
                 background-color: #034C3C; /* Highlight the active page */
                 color: white;
             }
+            .header-name {
+                float: right; /* Align the name to the right */
+                color: #1a4301; /* Highlight color */
+                padding: 10px 12px; /* Add some padding for spacing */
+                font-size: 12px; /* Set the font size */
+            }
             a:active {
                 color: #B1CC74;
                 background-color: transparent;
                 text-decoration: underline;
             }
             .content {
-                margin-left: 50px; /* Adjust based on image width */
-                margin-top: 75px; /* Add some space between the header and content */
+                margin-left: 260px; /* Adjust based on image width */
+                margin-top: 20px; /* Add some space between the header and content */
             }
             .image-container {
                 float: left; /* Float the image to the left */
@@ -76,8 +82,8 @@
     </head>
     <body>
         <div class="header">
-            <p> <span class="highlight"> Sophia Scaglioni Melegari</span></p>
-            <a href="index.html" class="active">Home</a>
+            <div class="header-name"> <span class="highlight"> Sophia Scaglioni Melegari</span> </div>
+            <a href="/" class="active">Home</a>
             <a href="research.html">Research</a>
             <a href="cv.html">CV</a>
             <a href="contact.html">Contact</a>
@@ -87,6 +93,7 @@
                 <img src="headshot.jpg">
             </div>
             <div>
+                <h1> Sophia Scaglioni</h1>
                 <p>
                     Hi, I’m <span class="highlight">Sophia</span>! <br>
                     <br>
