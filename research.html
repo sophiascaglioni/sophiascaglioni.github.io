@@ -88,6 +88,22 @@
                 display: block; /* Make strong text block to fill line */
                 margin-left: 0; /* Keep strong text aligned with title */
             }
+            @media screen and (max-width: 600px) {
+                .header a, .header-name {
+                    float: none;
+                    display: block;
+                    text-align: center;
+                    padding: 10px;
+                    font-size: 10px;
+                    margin-left: 0;
+                }
+                .header {
+                    margin-left: 0;
+                }
+                .content {
+                    margin-left: 10px;
+                }
+            }
 
         </style>
     </head>
@@ -97,6 +113,7 @@
             <a href="/" >Home</a>
             <a href="research.html" class="active" >Research</a>
             <a href="cv.html">CV</a>
+            <a href="data-science.html">Data Projects</a>
             <a href="contact.html">Contact</a>
         </div>
         <div class="content">
